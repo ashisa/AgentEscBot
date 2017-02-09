@@ -1,0 +1,92 @@
+{
+  "luis_schema_version": "1.3.1",
+  "versionId": "0.1",
+  "name": "EscalationModel",
+  "desc": "LUIS model for the human escalation scenarios",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Escalation"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "RegisterAgent"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can you tell me the weather",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i would like to escalate",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "please escalate this",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "i would like to talk to someone else",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "can i talk to a person please",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "can i talk to a supervisor",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "please connect me to a person",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "i would like to talk to a human agent please",
+      "intent": "Escalation",
+      "entities": []
+    },
+    {
+      "text": "i am a human agent",
+      "intent": "RegisterAgent",
+      "entities": []
+    },
+    {
+      "text": "i am human agent",
+      "intent": "RegisterAgent",
+      "entities": []
+    }
+  ]
+}
