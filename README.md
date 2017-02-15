@@ -25,6 +25,8 @@ This is a fully functional app that implements the following features -
 + Implements control messages for issue resolution and logging out
 	+ Like others aspect, things are kept simple
 
+Direct link to interesting code - https://raw.githubusercontent.com/ashisa/AgentEscBot/master/TestBot01/Escalation.cs
+	
 #Multi-channel
 
 Keeping up with the multi-channel integration features of Bot Framework, this application allows the agents and users to use any available channel. The testing was done with WebChat, Skype, GroupMe and Microsoft Teams and it effectively means that the agents and users are free to use any of these channels and can still talk to each other seamlessly.
