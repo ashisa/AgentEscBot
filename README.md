@@ -6,7 +6,7 @@ author: Ashish Sahu
 
 #What is this code?
 
-This is a bot application developed for Microsoft Bot Framework. The primary purpose of this speficic implementation is accomodate the escalation scenario with bots created with Microsoft Bot Framework.
+This is a bot application developed for Microsoft Bot Framework. The primary purpose of this speficic implementation is accommodate the escalation scenario with bots created with Microsoft Bot Framework.
 
 This is a fully functional app that implements the following features -
 
